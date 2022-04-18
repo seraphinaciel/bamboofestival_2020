@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>layer popup</title>
+	<style>
+		#layerpop {width:500px;height:630px;position:absolute;top:40%;left:50%;margin-top:-250px;margin-left:-25%;background:#fff;z-index:15000;}
+		#layerpop .cont {width:780px;height:600px;}
+		#layerpop .close {width:770px;height:30px;background:#f3f3f3;line-height:30px;padding-left:10px;font-size:13px;}
+		#layerpop .close #close {float:right;margin-right:10px;cursor:pointer;}
+	</style>
+
+
+</head>
+
+<body>
+	<div id="layerpop">
+		<div class="cont"><img src="/images/main/leaflet_poster_2020.png" alt="이미지에 대한 설명글" border="0"></div>
+		<div class="close">
+			<form>
+				<span id="check"><input type="checkbox" value="checkbox" name="chkbox" id="chkday"/><label for="chkday">오늘 하루동안 보지 않기</label></span>
+				<span id="close">닫기</span>
+			</form>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

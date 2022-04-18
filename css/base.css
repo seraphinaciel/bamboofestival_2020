@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+html,body{width:100%;height:100%;margin:0;padding:0}
+body {min-width:320px;margin:0;padding:0;font:400 1em 'AritaBuri', sans-serif;color:#101620;}
+@media all and (min-width:1220px){body{min-width:1400px;}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+div, p, ul, ol, li, img, a, table, td, th, tr, h1, h2, h3, h4, h5, h6, form, input, span, iframe, dl, dt, dd, caption  {margin:0;padding:0;border:none;}
+table{border-collapse:collapse;vertical-align:middle;font-size:100%;}
+img{border: 0 none;}
+input, select, button{font:1rem 'AritaBuri', sans-serif;}
+a, button, submit{transition: .2s ease-out}
+a{text-decoration:none;color:#101620;border:none;margin:0;padding:0;display:block;}
+a:visited{text-decoration:none;border:none;}
+a:active{text-decoration:none;border:none;}
+a:hover{text-decoration:underline;border:none;}
+	
+fieldset{border:none;margin:0; padding:0;}
+img, input.image {border:0 none;}
+form, input{margin:0;padding:0;}
+legend{display:none; margin:0; padding:0;}
+caption{overflow:hidden;width:0;height:0;line-height:0;text-indent:-9999px}
+ul,ol,li {list-style:none;}
+select{font-size:1em;}
+textarea{font-size:1em;margin:0;padding:0;}
+button{border:0;cursor:pointer}
+em{font-style:normal}
+
+hr{visibility:hidden;overflow:hidden;position:absolute;width:0;height:0;font-size:0;line-height:0;}
+td *, div *, span *, p *, *:before, *:after {vertical-align:middle;}
+h1 { font-size: 200%; }
+h2 { font-size: 180%; }
+h3 { font-size: 160%; }
+h4 { font-size: 140%; }
+h5 { font-size: 120%; }
+h6 { font-size: 100%; }
+
+::selection {background:#f6ff00;color:#101620;text-shadow:none;}

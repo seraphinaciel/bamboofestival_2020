@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+@font-face {
+font-family:'AritaBuri';
+font-style: normal;
+font-weight:400;
+src: url('../font/AritaBuriMedium.eot');
+src: local(※),
+url('../font/AritaBuriMedium.woff2') format('woff2'),
+url('../font/AritaBuriMedium.woff') format('woff'),
+url('../font/AritaBuriMedium.ttf') format('truetype');
+}
+@font-face {
+font-family: 'AritaBuri';
+font-style: normal;
+font-weight: 600;
+src:url(../font/AritaBuriB.eot);
+src: local(※),
+url('../font/AritaBuriB.woff2') format('woff2'), 
+url('../font/AritaBuriB.woff') format('woff'),
+url('../font/AritaBuriB.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'DoHyeon';
+font-style: normal;
+font-weight: 400;
+src:url(../font/DoHyeon.eot);
+src: local(※),
+url('../font/DoHyeon.woff2') format('woff2'), 
+url('../font/DoHyeon.woff') format('woff'),
+url('../font/DoHyeon.ttf') format('truetype');
+}
